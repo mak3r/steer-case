@@ -28,4 +28,18 @@ module threadtest() {
     }
 }
 
-tophalftest();
+module switchtest() {
+    difference() {
+        import("CaseTop.stl");
+        translate([-48,-128,3])
+        cube([120,200,30]);
+        translate([35,40,3])
+        cube([50,150,30]);
+        #translate([-60,70,3])
+        cube([50,150,30]);
+        translate([-10,90,3])
+        cube([80,50,30]);
+    }
+}
+
+switchtest();
