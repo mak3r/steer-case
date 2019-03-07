@@ -15,5 +15,5 @@ module switchbottom() {
     }
 }
 
-switchtop();
-//switchbottom();
+//switchtop();
+switchbottom();
