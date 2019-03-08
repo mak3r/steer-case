@@ -15,5 +15,14 @@ module switchbottom() {
     }
 }
 
-switchtop();
+module switchandboost() {
+    intersection() {
+        import("CaseBase.stl");
+        translate([-8,44,-10])
+        cube([80,45,50]);
+    }
+}
+
+//switchtop();
 //switchbottom();
+switchandboost();
