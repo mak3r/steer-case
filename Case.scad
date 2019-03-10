@@ -23,6 +23,16 @@ module switchandboost() {
     }
 }
 
-switchtop();
+module lightpipestop() {
+    intersection() {
+        import("CaseTop.stl");
+        #translate([-8,39,-10])
+        cube([80,50,50]);
+    }
+}
+
+
+lightpipestop();
+//switchtop();
 //switchbottom();
 //switchandboost();
