@@ -1,5 +1,7 @@
 # GETTING STARTED WITH THE STEER CASE
 
+![Assembled](https://raw.githubusercontent.com/mak3r/steer-case/RevB/images/assembled.jpg "Assembled Steer Case")
+
 ## There are a few things to do before you turn it on. 
 
 1. If it is on, turn it off.
@@ -39,6 +41,7 @@ If you are not operating the devices for long periods (a week or more), it is re
 The RaspberryPi is running a Raspbian Operating System. This is a variant of Debian designed for the RaspberryPi and usese the apt package manager. It is important to shutdown the operating system before turning off power to the device. This will prevent data coruption and the possibility of completely destroying the SD card. When logged into the device.
 
 ### Contents
+![Open Case](https://raw.githubusercontent.com/mak3r/steer-case/RevB/images/open_case.jpg "Open Steer Case")
 Inside the Steer Case are 4 main components and some wiring.
 * RaspberryPi (SBC)
 * Powerboost (similar to the circuitry found in battery packs used to rechard mobile devices)
@@ -49,6 +52,7 @@ Inside the Steer Case are 4 main components and some wiring.
 
 ## GENERAL OPERATION
 With a charged battery, switch the unit on. There is a switch on the right leg of the steer case. With the case top on, two LEDs are visible through holes in the top. Both lights are in the body near the front of the steer. The light nearer to the top of the case is the blue LED from the powerboost and indicates power is on. It is possible that this light is on but the RaspberryPi is not (see the section `Lights on the RaspberryPi`). Nearer the belly of the steer is a channel for the red LED of the Powerboost. If this light is on, you should immediately plugin the device *OR* shutdown the RaspberryPi and power off the entire device. (see the section `Operating System`)
+![Switch and Power](https://raw.githubusercontent.com/mak3r/steer-case/RevB/images/switch_and_power.jpg "Switch and Power locations")
 
 ### Charging
 The Steer Case is designed to be charged with the case closed if desired. Underneath the belly of the steer near the front leg is a micro USB port for charging. Using quality cables for charging will insure the longest lifetime of the components inside. 
