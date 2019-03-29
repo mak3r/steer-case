@@ -50,7 +50,7 @@ With a charged battery, switch the unit on. There is a switch on the right leg o
 
 ### Charging
 The Steer Case is designed to be charged with the case closed if desired. Underneath the belly of the steer near the front leg is a micro USB port for charging. Using quality cables for charging will insure the longest lifetime of the components inside. 
-When the top of the case is off, you will notice 4 lights on the chargin unit. The blue LED indicates that the device is on. The orange LED indicates that the device is charging. The off white LED indicates that the device is charged (only displays when the device is turned off). The red LED indicates a low battery.
+When the top of the case is off, you will notice 4 lights on the chargin unit. The blue LED indicates that the device is on. The orange LED indicates that the device is charging. The green LED indicates that the battery is completely charged (only displays when the device is turned off). The red LED indicates a low battery.
 
 ### Lights on the RaspberryPi
 When the top of the case is off, you will see two lights on the RaspberryPi. The red LED indicates that the device is powered. The orange LED indicates disk activity. If the Red LED is flickering it may be an indication of a heavy draw on the battery. The RaspberryPi is designed to power down if it cannot draw enough current to operate properly.
