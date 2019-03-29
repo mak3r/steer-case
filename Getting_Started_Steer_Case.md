@@ -31,6 +31,8 @@
 ### Battery - IMPORTANT
 The RaspberryPi inside the Steer Case is powered by a Lithium Polymer (LiPo) battery. The battery and components inside the steer case are equiped with overcharge and discharge protection units however it remains important to *understand the risks and be safe when using LiPo batteries*. Please read about lipo safety online. For example http://thedronegirl.com/2015/02/07/lipo-battery/. If you need to replace your battery, I recommend replacing with the same unit from Adafruit: https://www.adafruit.com/product/2011
 
+The Powerboost can power the RaspberryPi at the same time that the battery is charging. Powerboost documentation indicates that you should *ALWAYS HAVE A LIPO BATTERY PLUGGED INTO THE POWERBOOST WHEN YOU CONNECT A MINI USB CABLE*. Meaning if you don't have a battery plugged in then use the RaspberryPi micro USB power port directly. 
+
 If you are not operating the devices for long periods (a week or more), it is recommended to unplug the LiPo battery from the Powerboost (blue) circuit board.
 
 ### Operating System
@@ -56,4 +58,4 @@ When the top of the case is off, you will notice 4 lights on the chargin unit. T
 When the top of the case is off, you will see two lights on the RaspberryPi. The red LED indicates that the device is powered. The orange LED indicates disk activity. If the Red LED is flickering it may be an indication of a heavy draw on the battery. The RaspberryPi is designed to power down if it cannot draw enough current to operate properly.
 
 ### Opening the Case
-On the bottom of the case are 4 screws. The nature of 3D printing allows the screws to be printed right into the case so they cannot be lost. They are designed to be easy to open and close with a screwdriver or a dime or whatever you have in your pocket at the time. Don't overtighten the screws. Simply tighten until the top of the case is flush. Due to the design, there are some areas of the case top which may not be flush when all of the screws are fully tightened.
+On the bottom of the case are 4 bolts. The nature of 3D printing allows the bolts (and their corresponding nuts) to be printed right into the case so they cannot be lost. They are designed to be easy to open and close with a screwdriver or a dime or whatever you have in your pocket at the time. Don't overtighten the bolts. Simply tighten until the top of the case is flush. Due to the design, there are some areas of the case top which may not be flush when all of the screws are fully tightened.
