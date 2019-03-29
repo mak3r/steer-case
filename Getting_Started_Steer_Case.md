@@ -31,6 +31,8 @@
 ### Battery - IMPORTANT
 The RaspberryPi inside the Steer Case is powered by a Lithium Polymer (LiPo) battery. The battery and components inside the steer case are equiped with overcharge and discharge protection units however it remains important to *understand the risks and be safe when using LiPo batteries*. Please read about lipo safety online. For example http://thedronegirl.com/2015/02/07/lipo-battery/. If you need to replace your battery, I recommend replacing with the same unit from Adafruit: https://www.adafruit.com/product/2011
 
+The Powerboost can power the RaspberryPi at the same time that the battery is charging. Powerboost documentation indicates that you should *ALWAYS HAVE A LIPO BATTERY PLUGGED INTO THE POWERBOOST WHEN YOU CONNECT A MINI USB CABLE*. Meaning if you don't have a battery plugged in then use the RaspberryPi micro USB power port directly. 
+
 If you are not operating the devices for long periods (a week or more), it is recommended to unplug the LiPo battery from the Powerboost (blue) circuit board.
 
 ### Operating System
