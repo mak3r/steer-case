@@ -63,3 +63,6 @@ When the top of the case is off, you will see two lights on the RaspberryPi. The
 
 ### Opening the Case
 On the bottom of the case are 4 bolts. The nature of 3D printing allows the bolts (and their corresponding nuts) to be printed right into the case so they cannot be lost. They are designed to be easy to open and close with a screwdriver or a dime or whatever you have in your pocket at the time. Don't overtighten the bolts. Simply tighten until the top of the case is flush. Due to the design, there are some areas of the case top which may not be flush when all of the screws are fully tightened.
+
+### Production Process
+The steer case was printed on a RepRap style 3D printer - a printer which was originally designed with the idea that it could print parts used by the printer itself. A sort of recursive printer if you will. Due to the nature of 3D printing you will find imperfections in the model such as wisps of plastic, "shadows" of surface variation and bits material from the print bed surface. More about the process can be gleaned at https://medium.com/@mabrams_46032/building-the-edge-case-c4a6efa4cb0c. In addition, the printable files are available https://github.com/mak3r/steer-case.
